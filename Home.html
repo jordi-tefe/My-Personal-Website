@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <title>Yordanos Personal Website</title>
+    <style>
+       body{
+        /* background: linear-gradient(to right, rgb(243, 236, 236),rgb(54, 54, 40)); */
+        background-color: rgb(255, 255, 255);
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: auto;
+    
+       }
+
+nav{
+    position: fixed;
+    padding-top: 19px;
+   width: 40vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+    border-radius: 15% ;
+    top: 10%;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+a{
+    position: relative;
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(57, 243, 57);
+}
+a::before,
+a::after
+{
+    content: "";
+    position: absolute;
+   width: 0%;
+   height: 3px;
+   background-color: rgb(0, 0, 0);
+   transition: 2s;
+}
+a::after{
+    right: 0;
+    top: -10px;
+}
+a::before{
+    left: 0;
+    bottom: -10px;
+}
+a:hover::after,
+a:hover::before{
+width: 100%;
+
+}
+span{
+    color: rgb(22, 22, 19);
+}
+h1{
+    color: rgb(0, 0, 0);
+    
+font-style: oblique;
+  
+}
+.welcome{
+   position: relative;
+   margin-top: 10%;
+   overflow-y: hidden;
+   padding-bottom: 20%;
+
+  
+}
+.Little{
+    position:fixed;
+    padding-bottom: 20%;
+    margin-left: 5%;
+   margin-top: 40%;
+    color: aliceblue;
+    border-radius: 15% ;
+    border-top:5px solid rgb(0, 0, 0);
+}
+.Little h2{
+    color: rgb(238, 238, 228);
+    font-style: oblique;
+    
+}
+/* .welcome:hover{
+    color: gold;
+transform: scale(1.1);
+} */
+p{
+    color: black;
+}
+
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <a href="Home.html"><i class="fa fa-home" aria-hidden="true"></i> &nbsp; Home</a>
+        <a href="Blog.php"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;Blog</a>
+        <a href="about.html"><i class="fa fa-user-secret" aria-hidden="true"></i> &nbsp; About</a>
+        <a href="Contact.html"><i class="fa fa-phone " aria-hidden="true"></i>&nbsp;Contact</a>
+    </nav>
+    <div class="welcome">
+          <h1 style="text-align: center;">WELCOME <br> I'm <br> <span> <B> YORDANOS &nbsp; TEFERI</B></span></h1>
+       
+    </div>
+    
+    <div class="Little">
+        <h2 style="color: rgb(7, 7, 6);position: relative;left: 30%;"> <b><u> A little About me</u></b><br></h2>
+
+       <p style="color: rgb(7, 7, 6);" >
+           Currently,I'm a 4th year computer science and engineering student
+        studying in unity university <br> who has passion for tech.  I enjoy the process of creating and trasnforming ideas
+        into reality. <br>i always try to learn differnet tools and skills as much as possible. <br>
+        learning computer science has been a wonderful experience in unity university <br> where im learning
+        different ways to solve problems and create a better way of things <br>
+        when im not in class i like to design websites
+        work my programming skills and overall read technology books <br>
+        to upgrade myself in this contniously changing enviroment.
+        i'm currenty living in Adama/Nazret ethiopia.   
+    </p>
+   
+    
+    
+</body>
+</html>
